@@ -1,0 +1,1 @@
+# This is my React App for Searching beaches in Korea.

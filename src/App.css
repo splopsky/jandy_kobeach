@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(180deg, #f6d365 0%, #0fd0f1 100%);
+  color: rgb(2, 17, 1);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100vh;
+  
+}
+header {
+  font-size: 1rem;
+  font-family: 'Do Hyeon';
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  float: left;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
