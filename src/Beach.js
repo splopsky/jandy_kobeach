@@ -7,7 +7,7 @@ function Beach({ image, name }) {
         <div class="beach">
             <img src={image} alt={name} title={name} />
             <div class="beach_data">
-                <h5 class="beach_name" >{name} 해변
+                <h5 class="beach_name">{name} 해변
                 </h5>
             </div>
         </div>
